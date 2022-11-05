@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: $background-primary;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
