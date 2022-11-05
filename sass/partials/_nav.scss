@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-family:$font-primary;
+    font-size: 36px;
+}
+
+.navbar {
+    background: $Background-secondary !important;
+   
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: $font !important;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $color-special;
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
