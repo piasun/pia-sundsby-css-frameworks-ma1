@@ -21,3 +21,14 @@ body {
     flex: 1 0 auto;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3rem;
+
+    &__item {
+        margin: 1.5em;
+        max-width: 250px;
+    }
+}
+

@@ -1,0 +1,20 @@
+.nav {
+    background: $Background-secondary;
+    display: flex;
+
+    &__logo{
+        font-size: 36px;
+
+    }
+
+    &__items {
+        display: flex;
+
+
+    }
+
+    &__link {
+        font-family: 'Archivo Narrow', sans-serif;
+
+    }
+}

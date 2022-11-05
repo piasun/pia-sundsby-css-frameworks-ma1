@@ -1,0 +1,20 @@
+.square {
+    background: $Background-secondary;
+    height: 263px;
+    width: 264px;
+
+    &--border {
+        background-color: white;
+        border: 2px solid $color-special;
+        border-radius: 5px;
+    }
+
+    &--coloured {
+        background-color: $color-special;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+
+}
+
