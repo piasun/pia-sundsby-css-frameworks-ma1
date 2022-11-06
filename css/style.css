@@ -7918,10 +7918,9 @@ h1 {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
+/** {
+    box-sizing: border-box;
+}*/
 html, body {
   height: 100%;
 }
@@ -7938,17 +7937,25 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  flex: 1 0 auto;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 3rem;
-}
 .grid__item {
   margin: 1.5em;
   max-width: 250px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F3EE !important;
+  margin-top: 2rem;
+  font-size: 12px;
+  color: #8D8D8D;
+  padding: 10px;
+}
+footer__item {
+  padding: 5px;
 }
 
 .navbar-brand {
