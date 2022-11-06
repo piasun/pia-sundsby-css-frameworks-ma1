@@ -14,9 +14,13 @@
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-    color: $color-special;
+    color: $color-special !important;
 }
 
 .navbar-collapse {
     z-index: 1;
+}
+
+.nav-link {
+    font-family: $font-secondary !important;
 }
